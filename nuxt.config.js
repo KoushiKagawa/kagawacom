@@ -58,6 +58,17 @@ module.exports = {
   },
 
   /*
+  ** plugins
+  */
+  plugins: ['./plugins/contentful.js'],
+  /*
+  ** router
+  */
+  router: {
+    base: '/kagawacom/'
+  },
+
+  /*
   ** Generate configuration
   */
 
